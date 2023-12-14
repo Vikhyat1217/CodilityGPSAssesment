@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:showIn="@layout/app_bar_main">
+
+
+        <!-- MAIN CONTENT -->
+        <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <!-- Fragment is added here programmatically -->
+            <RelativeLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:showIn="@layout/app_bar_main"
+                tools:context="com.android.gpstest.ui.MainActivity"/>
+
+            <!-- Top card to enter ground truth information - CardView first, then MotionLayout
+                 (MotionLayout doesn't resize dynamically well during animations, so instead of
+                 putting MotionLayout within CardView we put it on top, and then pass through taps
+                 on the MotionLayout when the CardView is collapsed to the underlying map view.  So,
+                 CardView shrinks when collapsed but MotionLayout stays a consistent height -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </FrameLayout>
+
+            <!-- Progress bar for when GNSS is attempting fix -->
+            <ProgressBar
+                android:id="@+id/progress_horizontal"
+                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="-7dp"
+                android:indeterminate="true"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+
+</RelativeLayout>

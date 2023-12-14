@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">library</string>
+    <string name="pref_key_gps_min_time">1000</string>
+    <string name="pref_key_gps_min_distance">50</string>
+    <string name="capability_value_location_disabled">Location Value Disabled</string>
+    <string name="default_capability">Default</string>
+    <string name="pref_key_gnss_background">true</string>
+    <string name="title_location_permission">Need Location Permission</string>
+    <string name="text_location_permission">Do you allow location access to this app</string>
+    <string name="ok">OK</string>
+    <string name="exit">EXIT</string>
+    <string name="enable_gps_message">Do you want to enable GPS?</string>
+    <string name="enable_gps_positive_button">OK</string>
+    <string name="enable_gps_negative_button">Cancel</string>
+</resources>
