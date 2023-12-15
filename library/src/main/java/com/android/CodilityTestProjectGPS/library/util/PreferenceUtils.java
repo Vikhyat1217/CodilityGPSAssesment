@@ -1,15 +1,10 @@
 package com.android.CodilityTestProjectGPS.library.util;
 
-import static java.util.Collections.emptySet;
-
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import com.android.CodilityTestProjectGPS.library.R;
 
-import java.util.LinkedHashSet;
-import java.util.Set;
 
 /**
  * A class containing utility methods related to preferences

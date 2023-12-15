@@ -1,13 +1,8 @@
 package com.android.CodilityTestProjectGPS.library.data
 
 import android.content.Context
-import android.net.SocketKeepalive.Callback
-import com.android.CodilityTestProjectGPS.di.DataModule_ProvideRetrofitFactory
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import dagger.hilt.android.qualifiers.ApplicationContext
-import dagger.hilt.android.scopes.ActivityRetainedScoped
-import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.*
 import retrofit2.Retrofit
 import javax.inject.Inject

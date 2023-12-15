@@ -5,37 +5,18 @@ import android.Manifest
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
 import android.app.Activity
-import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
-import android.content.SharedPreferences
-import android.content.pm.PackageInfo
-import android.content.pm.PackageManager
-import android.content.res.Configuration
-import android.location.Location
-import android.location.LocationManager
-import android.net.Uri
-import android.os.Build
 import android.provider.Settings
-import android.text.Spannable
-import android.text.TextUtils
-import android.text.method.LinkMovementMethod
-import android.text.style.ClickableSpan
 import android.view.View
 import android.view.ViewGroup.MarginLayoutParams
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.app.ActivityCompat
-import androidx.fragment.app.Fragment
 import com.android.CodilityTestProjectGPS.library.R
-import com.android.CodilityTestProjectGPS.library.ui.LocationViewModel
-import com.google.android.material.chip.Chip
-import java.math.BigDecimal
-import java.math.RoundingMode
-import java.util.*
+
 
 /**
  * Utilities for processing user interface elements

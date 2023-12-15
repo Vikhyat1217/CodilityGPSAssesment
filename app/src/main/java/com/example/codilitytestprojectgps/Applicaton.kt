@@ -1,6 +1,5 @@
 package com.android.CodilityTestProjectGPS
 
-import android.app.LocaleManager
 import android.content.Context
 import android.content.SharedPreferences
 import android.content.res.Configuration
@@ -11,7 +10,7 @@ import dagger.hilt.android.HiltAndroidApp
 /**
  * Holds application-wide state
  *
- * @author Sean J. Barbeau
+ * @author Vikhyat Chandra
  */
 @HiltAndroidApp
 class Application : MultiDexApplication() {

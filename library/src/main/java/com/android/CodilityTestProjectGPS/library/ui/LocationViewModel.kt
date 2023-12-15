@@ -19,7 +19,6 @@ import com.android.CodilityTestProjectGPS.library.data.GecoderResponse
 import com.android.CodilityTestProjectGPS.library.data.LocationRepository
 import com.android.CodilityTestProjectGPS.library.data.NetworkResult
 import com.android.CodilityTestProjectGPS.library.util.PreferenceUtil
-//import com.android.CodilityTestProject.library.
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.Job
@@ -29,7 +28,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 /**
- * View model that holds GNSS signal information
+ * View model that holds Location Update information
  */
 
 @ExperimentalCoroutinesApi

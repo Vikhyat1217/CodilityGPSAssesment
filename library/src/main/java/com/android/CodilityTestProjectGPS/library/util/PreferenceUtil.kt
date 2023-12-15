@@ -5,7 +5,7 @@ import android.content.SharedPreferences
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import com.android.CodilityTestProjectGPS.library.R
-import com.android.CodilityTestProjectGPS.library.util.PreferenceUtils
+
 
 /**
  * Provides access to SharedPreferences to Activities and Services.
